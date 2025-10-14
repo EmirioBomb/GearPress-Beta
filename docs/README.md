@@ -5,7 +5,7 @@ config:
   -
     type: hero
     full: true
-    background: tint-plate
+    # background: tint-plate
     hero:
       name: Theme Plume
       tagline: VuePress Next Theme
