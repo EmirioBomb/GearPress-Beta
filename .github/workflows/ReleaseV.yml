@@ -35,5 +35,4 @@ jobs:
         if: steps.autotag.outputs.new_tag != ''
         uses: ncipollo/release-action@v1
         with:
-          tag: ${{ steps.autotag.outputs.new_tag }}
           generateReleaseNotes: true
