@@ -18,7 +18,7 @@ jobs:
         id: autotag
         uses: anothrNick/github-tag-action@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAG_PREFIX: 'v'
           INITIAL_VERSION: 1.0.0
           MAJOR_STRING_TOKEN: BREAKING CHANGE
