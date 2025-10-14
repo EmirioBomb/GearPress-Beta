@@ -23,10 +23,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAG_PREFIX: 'v'
           INITIAL_VERSION: 1.0.0
-          MAJOR_STRING_TOKEN: BREAKING CHANGE
-          MINOR_STRING_TOKEN: feat
-          PATCH_STRING_TOKEN: fix | docs | style | refactor | perf | test | chore ｜ ci ｜ build
-          RELEASE_BRANCHES: main
 
       - name: Generate Changelog
         if: steps.autotag.outputs.new_tag != ''
