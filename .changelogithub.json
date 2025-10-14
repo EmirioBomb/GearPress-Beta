@@ -1,0 +1,26 @@
+{
+    "types": {
+        "feat": "✨ Features",
+        "fix": "🐛 Fixes",
+        "docs": "📝 Docs",
+        "style": "💅 Style",
+        "refactor": "♻️ Refactors",
+        "perf": "⚡ Performance",
+        "test": "✅ Tests",
+        "chore": "🔧 Chores",
+        "ci": "🤖 CI",
+        "build": "🏗️ Build"
+    },
+    "includeTypes": [
+        "feat",
+        "fix",
+        "docs",
+        "style",
+        "refactor",
+        "perf",
+        "test",
+        "chore",
+        "ci",
+        "build"
+    ]
+}
