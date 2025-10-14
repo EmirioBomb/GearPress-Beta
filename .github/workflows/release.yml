@@ -1,0 +1,37 @@
+name: 🚀 Auto Tag and Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 必须拿到历史 tag
+
+      - name: 🔖 Auto Tag
+        id: autotag
+        uses: anothrNick/github-tag-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEFAULT_BUMP: patch
+          TAG_CONTEXT: branch
+
+      - name: 🪄 Generate Changelog
+        if: steps.autotag.outputs.new_tag != ''
+        # run: |
+        #   npm install -g changelogithub
+        #   npx changelogithub --token ${{ secrets.GITHUB_TOKEN }} \
+        #     --tag ${{ steps.autotag.outputs.new_tag }}
+        run: npx changelogithub
+
+      - name: 📦 Publish Release
+        if: steps.autotag.outputs.new_tag != ''
+        run: |
+          gh release create ${{ steps.autotag.outputs.new_tag }} \
+            --generate-notes \
+            --title "Release ${{ steps.autotag.outputs.new_tag }}"
