@@ -23,11 +23,10 @@ jobs:
 
       - name: 🪄 Generate Changelog
         if: steps.autotag.outputs.new_tag != ''
-        # run: |
-        #   npm install -g changelogithub
-        #   npx changelogithub --token ${{ secrets.GITHUB_TOKEN }} \
-        #     --tag ${{ steps.autotag.outputs.new_tag }}
-        run: npx changelogithub
+        run: |
+          npm install -g changelogithub
+          npx changelogithub --token ${{ secrets.GITHUB_TOKEN }} \
+            --tag ${{ steps.autotag.outputs.new_tag }}
 
       - name: 📦 Publish Release
         if: steps.autotag.outputs.new_tag != ''
