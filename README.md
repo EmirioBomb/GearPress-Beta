@@ -12,3 +12,5 @@
 
 </div>
 援藏meREADME
+
+试一下tag、changelog 及 auto release workflow
