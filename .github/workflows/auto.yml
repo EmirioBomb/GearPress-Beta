@@ -13,16 +13,6 @@ jobs:
       # 1️⃣ Checkout 代码
       - uses: actions/checkout@v5
 
-      # 2️⃣ 设置 Node.js
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 20
-          cache: 'npm'
-
-      # 3️⃣ 安装依赖
-      - run: npm ci
-
-
       # 5️⃣ 运行 semantic-release
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v5
