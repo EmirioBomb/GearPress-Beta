@@ -1,4 +1,4 @@
-name: CI / Release
+name: Semantic Release
 
 on:
   push:
@@ -13,17 +13,17 @@ jobs:
       # 1️⃣ Checkout 代码
       - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 22
 
 
       # 5️⃣ 运行 semantic-release
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v5
         with:
-          semantic_version: 19.0.5
-          branches: main
+          semantic_version: 25.0.9
+          branch: main
           extra_plugins: |
             @semantic-release/commit-analyzer
             @semantic-release/release-notes-generator
