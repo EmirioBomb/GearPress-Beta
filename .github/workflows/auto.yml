@@ -20,7 +20,7 @@ jobs:
 
       # 5️⃣ 运行 semantic-release
       - name: Semantic Release
-        uses: cycjimmy/semantic-release-action@v4
+        uses: cycjimmy/semantic-release-action@v3
         with:
           semantic_version: 25.0.9
           branch: main
