@@ -12,7 +12,7 @@
                 },
                 {
                     "type": "ci",
-                    "release": "patch"
+                    "release": "minor"
                 },
                 {
                     "type": "chore",
@@ -22,6 +22,16 @@
         },
         "@semantic-release/release-notes-generator",
         "@semantic-release/changelog",
+        [
+            "@semantic-release/git",
+            {
+                "assets": [
+                    "package.json",
+                    "CHANGELOG.md"
+                ],
+                "message": "自动误国(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+            }
+        ],
         "@semantic-release/github",
         "@semantic-release/git"
     ]
