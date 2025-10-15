@@ -1,4 +1,4 @@
-name: Auto Release
+name: ReleaseV
 
 on:
   push:
@@ -8,6 +8,7 @@ on:
 jobs:
       
   release:
+    # if: false
     name: Auto Tag + Changelog + Release
     runs-on: ubuntu-latest
     steps:
@@ -16,24 +17,34 @@ jobs:
         with:
           fetch-depth: 0  # 必须拿到历史 tag
 
-      - name: Auto Tag
-        id: autotag
-        uses: anothrNick/github-tag-action@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG_PREFIX: 'v'
-          INITIAL_VERSION: 1.0.0
-          # PATCH_STRING_TOKEN: fix|docs|style|refactor|perf|test|chore|ci|build
-          DEFAULT_BUMP: patch
-          MINOR_STRING_TOKEN: feat
-          MAJOR_STRING_TOKEN: BREAKING CHANGE
+      # - name: Auto Tag
+      #   id: autotag
+      #   uses: anothrNick/github-tag-action@v1
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     TAG_PREFIX: 'v'
+      #     INITIAL_VERSION: 1.0.0
+      #     # PATCH_STRING_TOKEN: fix|docs|style|refactor|perf|test|chore|ci|build
+      #     DEFAULT_BUMP: patch
+      #     MINOR_STRING_TOKEN: feat
+      #     MAJOR_STRING_TOKEN: BREAKING CHANGE
 
-      - name: Generate Changelog
-        if: steps.autotag.outputs.new_tag != ''
-        run: |
-          npx changelogithub
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Generate Changelog
+      #   if: steps.autotag.outputs.new_tag != ''
+      #   run: |
+      #     npx changelogithub
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Conventional Changelog Action
+        uses: TriPSs/conventional-changelog-action@v5
+        with:
+          github-token: ${{ secrets.github_token }}
+          git-message: 'chore(release): {version}'
+          preset: 'angular'
+          tag-prefix: 'v'
+          output-file: 'CHANGELOG.md'
+          release-count: '0'
 
       # - name: Create GitHub Release
       #   if: steps.autotag.outputs.new_tag != ''
