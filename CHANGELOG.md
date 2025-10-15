@@ -1,3 +1,10 @@
+## [1.8.4](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.3...v1.8.4) (2025-10-15)
+
+
+### Bug Fixes
+
+* :zap: 这个会发版 ([8b1ac35](https://github.com/EmirioBomb/GearPress-Beta/commit/8b1ac359a1163f5e0cfa2b648d018d6ba376c2f7))
+
 ## [1.8.3](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.2...v1.8.3) (2025-10-15)
 
 
