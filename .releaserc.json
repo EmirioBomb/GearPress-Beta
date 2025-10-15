@@ -8,7 +8,6 @@
                 "releaseRules": [
                     {
                         "type": "docs",
-                        "scope": "README",
                         "release": "patch"
                     },
                     {
@@ -69,8 +68,7 @@
                 ],
                 "message": "自动误国(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
             }
-        ],
-        "@semantic-release/git"
+        ]
     ],
     "preset": "angular"
 }
