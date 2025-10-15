@@ -1,3 +1,13 @@
+## [1.8.2](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.1...v1.8.2) (2025-10-15)
+
+
+### Bug Fixes
+
+* **ci:** :zap: update ci config ([fc04a85](https://github.com/EmirioBomb/GearPress-Beta/commit/fc04a85dc1e3ced430b381aaaf801961c812d039))
+* **docs:** :art: change version ([81a083b](https://github.com/EmirioBomb/GearPress-Beta/commit/81a083be4a6fecb90fa48bf4927f95c9d8879b85))
+* **docs:** :test_tube: ([df578a6](https://github.com/EmirioBomb/GearPress-Beta/commit/df578a6e6f05211970f1f3e0bbcffb76072640b0))
+* **docs:** :zap: fix atuo deploy ([e73fa31](https://github.com/EmirioBomb/GearPress-Beta/commit/e73fa31cfdedccaf3bb8434da8ad13dd8ba27fc6))
+
 ## [1.0.1](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.0...v1.0.1) (2025-10-15)
 
 
@@ -58,6 +68,3 @@
 
 
 # 1.1.0 (2025-10-14)
-
-
-
