@@ -1,3 +1,10 @@
+## [1.8.3](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.2...v1.8.3) (2025-10-15)
+
+
+### Bug Fixes
+
+* **docs:** :art: fix to trigger ([8004c55](https://github.com/EmirioBomb/GearPress-Beta/commit/8004c55e8a02e4cd015c9e08bc987de7dcb934e8))
+
 ## [1.8.2](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.1...v1.8.2) (2025-10-15)
 
 
