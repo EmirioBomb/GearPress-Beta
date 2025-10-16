@@ -1,3 +1,10 @@
+## [1.8.11](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.10...v1.8.11) (2025-10-16)
+
+
+### Bug Fixes
+
+* **docs:** :art: fix ([897cd40](https://github.com/EmirioBomb/GearPress-Beta/commit/897cd40f8f7778ba131b74b97bdb606763154005))
+
 ## [1.8.10](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.9...v1.8.10) (2025-10-16)
 
 
