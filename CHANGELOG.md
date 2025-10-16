@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.9.0...v1.9.1) (2025-10-16)
+
+### Documents
+
+* **ci:** :fire: 安装依赖 ([703451d](https://github.com/EmirioBomb/GearPress-Beta/commit/703451d3f0767edf9c58453700f50e02c5867f53))
+* **git:** :zap: 同步修改readme ([ca67884](https://github.com/EmirioBomb/GearPress-Beta/commit/ca67884021e90a73a643d3f417c830d6ae00758d))
+
 ## [1.9.0](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.17...v1.9.0) (2025-10-16)
 
 ### Features
