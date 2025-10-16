@@ -1,3 +1,11 @@
+## [1.8.14](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.13...v1.8.14) (2025-10-16)
+
+
+### Bug Fixes
+
+* **docs:** :art: 3 ([aed8ea7](https://github.com/EmirioBomb/GearPress-Beta/commit/aed8ea7f25c55af1a4477aee7d6028af99ce6fbc))
+* **docs:** :art: 第二次发版，版本号变化 ([3604a2b](https://github.com/EmirioBomb/GearPress-Beta/commit/3604a2b9e8c93263e1f6e2d53c03a23d36323317))
+
 ## [1.8.13](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.12...v1.8.13) (2025-10-16)
 
 ## [1.8.12](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.11...v1.8.12) (2025-10-16)
