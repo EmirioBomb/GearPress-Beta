@@ -17,8 +17,8 @@ jobs:
         with:
           node-version: 24
 
-      - name: Install Dependencies
-        run: npm install --frozen-lockfile
+      # - name: Install Dependencies
+      #   run: npm install --frozen-lockfile
 
       # 5️⃣ 运行 semantic-release
       - name: Semantic Release
