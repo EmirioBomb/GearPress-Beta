@@ -31,27 +31,59 @@
                 "preset": "conventionalcommits",
                 "presetConfig": {
                     "types": [
-                        {"type": "feat", "section": "Features"},
-                        {"type": "fix", "section": "Bug11 Fixes"},
-                        {"type": "chore", "hidden": true},
-                        {"type": "docs", "section": "Documents", "hidden": false},
-                        {"type": "style", "hidden": true},
-                        {"type": "refactor", "hidden": true},
-                        {"type": "perf", "hidden": true},
-                        {"type": "test", "hidden": true}
+                        {
+                            "type": "feat",
+                            "section": "Features"
+                        },
+                        {
+                            "type": "fix",
+                            "section": "Bug11 Fixes"
+                        },
+                        {
+                            "type": "chore",
+                            "hidden": true
+                        },
+                        {
+                            "type": "docs",
+                            "section": "Documents",
+                            "hidden": false
+                        },
+                        {
+                            "type": "style",
+                            "hidden": true
+                        },
+                        {
+                            "type": "refactor",
+                            "hidden": true
+                        },
+                        {
+                            "type": "perf",
+                            "hidden": true
+                        },
+                        {
+                            "type": "test",
+                            "hidden": true
+                        }
                     ]
                 }
             }
         ],
         "@semantic-release/changelog",
         [
+            "@semantic-release/exec",
+            {
+                "prepareCmd": "sed -i 's/v[0-9]*\\.[0-9]*\\.[0-9]*/v${nextRelease.version}/g' README.md"
+            }
+        ],
+        [
             "@semantic-release/git",
             {
                 "assets": [
                     "package.json",
+                    "README.md",
                     "CHANGELOG.md"
                 ],
-                "message": "自定义发版信息(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+                "message": "🔖 release: v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
             }
         ]
     ]
