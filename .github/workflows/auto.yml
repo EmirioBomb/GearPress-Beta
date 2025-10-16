@@ -13,12 +13,15 @@ jobs:
       # 1️⃣ Checkout 代码
       - uses: actions/checkout@v5
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
       - uses: actions/setup-node@v6
         with:
           node-version: 24
 
       - name: Install Dependencies
-        run: npm install conventional-changelog-conventionalcommits -D
+        run: pnpm install conventional-changelog-conventionalcommits @semantic-release/exec -D
 
       # 5️⃣ 运行 semantic-release
       - name: Semantic Release
