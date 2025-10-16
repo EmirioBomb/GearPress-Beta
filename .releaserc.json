@@ -1,7 +1,22 @@
 {
     "branch": "main",
     "plugins": [
-        "@semantic-release/commit-analyzer",
+        [
+            "@semantic-release/commit-analyzer",
+            {
+                "preset": "angular",
+                "releaseRules": [
+                    {
+                        "type": "docs",
+                        "release": "patch"
+                    },
+                    {
+                        "type": "ci",
+                        "release": "minor"
+                    }
+                ]
+            }
+        ],
         [
             "@semantic-release/release-notes-generator",
             {
@@ -72,7 +87,6 @@
                 ],
                 "message": "自定义发版信息(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
             }
-        ],
-        "@semantic-release/github"
+        ]
     ]
 }
