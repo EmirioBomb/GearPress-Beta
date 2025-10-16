@@ -17,6 +17,10 @@
                     {
                         "type": "style",
                         "release": "patch"
+                    },
+                    {
+                        "type": "Revert",
+                        "release": "patch"
                     }
                 ]
             }
@@ -24,47 +28,40 @@
         [
             "@semantic-release/release-notes-generator",
             {
+                "preset": "angular",
                 "presetConfig": {
                     "types": [
                         {
                             "type": "feat",
-                            "section": "Features",
-                            "hidden": false
+                            "section": "Features"
                         },
                         {
                             "type": "fix",
-                            "section": "Fixes",
-                            "hidden": false
+                            "section": "Fixes"
                         },
                         {
                             "type": "refactor",
-                            "section": "Refactors",
-                            "hidden": false
+                            "section": "Refactors"
                         },
                         {
                             "type": "perf",
-                            "section": "Performance Improvements",
-                            "hidden": false
+                            "section": "Performance Improvements"
                         },
                         {
                             "type": "docs",
-                            "section": "Documentation",
-                            "hidden": false
+                            "section": "Documentation"
                         },
                         {
                             "type": "style",
-                            "section": "Code Style Updates",
-                            "hidden": false
+                            "section": "Code Style Updates"
                         },
                         {
                             "type": "test",
-                            "section": "Tests",
-                            "hidden": false
+                            "section": "Tests"
                         },
                         {
                             "type": "*",
-                            "section": "Other Changes",
-                            "hidden": false
+                            "section": "Other Changes"
                         }
                     ]
                 }
