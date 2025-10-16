@@ -23,38 +23,16 @@
                 "preset": "angular",
                 "presetConfig": {
                     "types": [
-                        {
-                            "type": "feat",
-                            "section": "Features"
-                        },
-                        {
-                            "type": "fix",
-                            "section": "Fixes"
-                        },
-                        {
-                            "type": "refactor",
-                            "section": "Refactors"
-                        },
-                        {
-                            "type": "perf",
-                            "section": "Performance Improvements"
-                        },
-                        {
-                            "type": "docs",
-                            "section": "Documentation"
-                        },
-                        {
-                            "type": "style",
-                            "section": "Code Style Updates"
-                        },
-                        {
-                            "type": "test",
-                            "section": "Tests"
-                        },
-                        {
-                            "type": "*",
-                            "section": "Other Changes"
-                        }
+                        { "type": "feat", "section": "✨ Features", "hidden": false },
+                        { "type": "fix", "section": "🐞 Fixes", "hidden": false },
+                        { "type": "refactor", "section": "♻️ Refactors", "hidden": false },
+                        { "type": "perf", "section": "⚡ Performance", "hidden": false },
+                        { "type": "docs", "section": "📝 Documentation", "hidden": false },
+                        { "type": "style", "section": "🎨 Code Style", "hidden": false },
+                        { "type": "test", "section": "✅ Tests", "hidden": false },
+                        { "type": "ci", "section": "⚙️ CI/CD", "hidden": false },
+                        { "type": "chore", "section": "🔧 Maintenance", "hidden": false },
+                        { "type": "build", "section": "🏗️ Build System", "hidden": false }
                     ]
                 }
             }
