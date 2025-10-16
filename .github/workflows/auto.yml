@@ -17,6 +17,8 @@ jobs:
         with:
           node-version: 24
 
+      - name: Install dependencies
+        run: npm ci
 
       # 5️⃣ 运行 semantic-release
       - name: Semantic Release

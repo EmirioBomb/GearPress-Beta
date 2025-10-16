@@ -11,7 +11,7 @@ on:
 
 jobs:
   docs:
-    # if: false
+    if: false
     runs-on: ubuntu-latest
 
     steps:
