@@ -1,3 +1,11 @@
+## [1.8.17](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.16...v1.8.17) (2025-10-16)
+
+
+### Bug Fixes
+
+* **ci:** :zap: fix cid ([b4f13cc](https://github.com/EmirioBomb/GearPress-Beta/commit/b4f13ccfc6404fb66169ff756c4ba1f8d55e4586))
+* **docs:** :art: fix 111 ([c34234f](https://github.com/EmirioBomb/GearPress-Beta/commit/c34234fe0d7352dacd85897e60df526033730f30))
+
 ## [1.8.16](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.15...v1.8.16) (2025-10-16)
 
 ## [1.8.15](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.14...v1.8.15) (2025-10-16)
