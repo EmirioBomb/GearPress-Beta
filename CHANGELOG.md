@@ -1,3 +1,22 @@
+## [1.9.0](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.17...v1.9.0) (2025-10-16)
+
+### Features
+
+* **ci:** :ambulance: fix ci config ([d8a5599](https://github.com/EmirioBomb/GearPress-Beta/commit/d8a5599ae02a226956860bb76bbf5c731921d04e))
+* **docs:** :ambulance: new ci format ([3430154](https://github.com/EmirioBomb/GearPress-Beta/commit/34301546ec44e7e59b88a78f11479d6d3288e5a1))
+
+### Bug11 Fixes
+
+* **ci:** :ambulance: hotfix ci ([bc0b070](https://github.com/EmirioBomb/GearPress-Beta/commit/bc0b07041c6a24117b2fb7c186ed0727ba0658a2))
+* **docs:** :art: fix docs ([c0481e3](https://github.com/EmirioBomb/GearPress-Beta/commit/c0481e3d048097532db24090180a7e29b974ff1c))
+* **docs:** :art: fix xxx>>> ([de86965](https://github.com/EmirioBomb/GearPress-Beta/commit/de86965c63447226c1aba7f368e25b57e3626be8))
+
+### Documents
+
+* **docs:** :bug: fix ciiiii ([5fe8553](https://github.com/EmirioBomb/GearPress-Beta/commit/5fe8553345835a7fbcc57d5d6909ecb3c20f9753))
+* **git:** :art: docs1 ([57ff83a](https://github.com/EmirioBomb/GearPress-Beta/commit/57ff83a39657a74db929a9ea563657077db58082))
+* **git:** :sparkles: new docs ([08cd707](https://github.com/EmirioBomb/GearPress-Beta/commit/08cd7075fb4582f5d94f528a2ae80b901e8a87f3))
+
 ## [1.8.17](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.16...v1.8.17) (2025-10-16)
 
 
