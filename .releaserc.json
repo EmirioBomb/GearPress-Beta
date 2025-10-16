@@ -34,7 +34,7 @@
                         {"type": "feat", "section": "Features"},
                         {"type": "fix", "section": "Bug11 Fixes"},
                         {"type": "chore", "hidden": true},
-                        {"type": "docs", "hidden": false},
+                        {"type": "docs", "section": "Documents", "hidden": false},
                         {"type": "style", "hidden": true},
                         {"type": "refactor", "hidden": true},
                         {"type": "perf", "hidden": true},
