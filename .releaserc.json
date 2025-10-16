@@ -25,53 +25,35 @@
                     "types": [
                         {
                             "type": "feat",
-                            "section": "✨ Features",
-                            "hidden": false
+                            "section": "Features"
                         },
                         {
                             "type": "fix",
-                            "section": "🐞 Fixes",
-                            "hidden": false
+                            "section": "Fixes"
                         },
                         {
                             "type": "refactor",
-                            "section": "♻️ Refactors",
-                            "hidden": false
+                            "section": "Refactors"
                         },
                         {
                             "type": "perf",
-                            "section": "⚡ Performance",
-                            "hidden": false
+                            "section": "Performance Improvements"
                         },
                         {
                             "type": "docs",
-                            "section": "📝 Documentation",
-                            "hidden": false
+                            "section": "Documentation"
                         },
                         {
                             "type": "style",
-                            "section": "🎨 Code Style",
-                            "hidden": false
+                            "section": "Code Style Updates"
                         },
                         {
                             "type": "test",
-                            "section": "✅ Tests",
-                            "hidden": false
+                            "section": "Tests"
                         },
                         {
-                            "type": "ci",
-                            "section": "⚙️ CI/CD",
-                            "hidden": false
-                        },
-                        {
-                            "type": "chore",
-                            "section": "🔧 Maintenance",
-                            "hidden": false
-                        },
-                        {
-                            "type": "build",
-                            "section": "🏗️ Build System",
-                            "hidden": false
+                            "type": "*",
+                            "section": "Other Changes"
                         }
                     ]
                 }
