@@ -16,7 +16,8 @@
 试一下tag、changelog 及 auto release workflow
 只要fix就可以发版
 
-fix changelog111
+fix changelog111pnpm add conventional-commits-parser
+
 1111
 11
 

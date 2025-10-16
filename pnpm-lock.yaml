@@ -20,6 +20,12 @@ dependencies:
   '@semantic-release/release-notes-generator':
     specifier: ^14.1.0
     version: 14.1.0(semantic-release@24.2.9)
+  conventional-changelog-writer:
+    specifier: ^8.2.0
+    version: 8.2.0
+  conventional-commits-parser:
+    specifier: ^6.2.0
+    version: 6.2.0
   semantic-release:
     specifier: ^24.2.9
     version: 24.2.9(typescript@5.9.3)
