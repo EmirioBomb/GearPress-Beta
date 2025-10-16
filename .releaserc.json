@@ -25,35 +25,43 @@
                     "types": [
                         {
                             "type": "feat",
-                            "section": "Features"
+                            "section": "Features",
+                            "hidden": false
                         },
                         {
                             "type": "fix",
-                            "section": "Fixes"
+                            "section": "Fixes",
+                            "hidden": false
                         },
                         {
                             "type": "refactor",
-                            "section": "Refactors"
+                            "section": "Refactors",
+                            "hidden": false
                         },
                         {
                             "type": "perf",
-                            "section": "Performance Improvements"
+                            "section": "Performance Improvements",
+                            "hidden": false
                         },
                         {
                             "type": "docs",
-                            "section": "Documentation"
+                            "section": "Documentation",
+                            "hidden": false
                         },
                         {
                             "type": "style",
-                            "section": "Code Style Updates"
+                            "section": "Code Style Updates",
+                            "hidden": false
                         },
                         {
                             "type": "test",
-                            "section": "Tests"
+                            "section": "Tests",
+                            "hidden": false
                         },
                         {
                             "type": "*",
-                            "section": "Other Changes"
+                            "section": "Other Changes",
+                            "hidden": false
                         }
                     ]
                 }
