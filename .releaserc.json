@@ -31,38 +31,14 @@
                 "preset": "angular",
                 "presetConfig": {
                     "types": [
-                        {
-                            "type": "feat",
-                            "section": "Features"
-                        },
-                        {
-                            "type": "fix",
-                            "section": "Fixes"
-                        },
-                        {
-                            "type": "refactor",
-                            "section": "Refactors"
-                        },
-                        {
-                            "type": "perf",
-                            "section": "Performance Improvements"
-                        },
-                        {
-                            "type": "docs",
-                            "section": "Documentation"
-                        },
-                        {
-                            "type": "style",
-                            "section": "Code Style Updates"
-                        },
-                        {
-                            "type": "test",
-                            "section": "Tests"
-                        },
-                        {
-                            "type": "*",
-                            "section": "Other Changes"
-                        }
+                        {"type": "feat", "section": "Features"},
+                        {"type": "fix", "section": "Bug11 Fixes"},
+                        {"type": "chore", "hidden": true},
+                        {"type": "docs", "hidden": false},
+                        {"type": "style", "hidden": true},
+                        {"type": "refactor", "hidden": true},
+                        {"type": "perf", "hidden": true},
+                        {"type": "test", "hidden": true}
                     ]
                 }
             }
