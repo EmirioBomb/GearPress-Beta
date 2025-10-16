@@ -1,3 +1,5 @@
+## [1.8.13](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.12...v1.8.13) (2025-10-16)
+
 ## [1.8.12](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.11...v1.8.12) (2025-10-16)
 
 ## [1.8.11](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.8.10...v1.8.11) (2025-10-16)
