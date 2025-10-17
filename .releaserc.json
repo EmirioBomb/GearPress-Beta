@@ -41,6 +41,10 @@
                     {
                         "type": "test",
                         "release": false
+                    },
+                    {
+                        "breaking": true,
+                        "release": "major"
                     }
                 ]
             }
