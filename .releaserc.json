@@ -105,16 +105,17 @@
                 "prepareCmd": "sed -i 's/v[0-9]*\\.[0-9]*\\.[0-9]*/v${nextRelease.version}/g' README.md"
             }
         ],
-        "@semantic-release/git",
         [
-            "@semantic-release/github",
+            "@semantic-release/git",
             {
                 "assets": [
                     "package.json",
-                    "CHANGELOG.md",
-                    "README.md"
-                ]
+                    "README.md",
+                    "CHANGELOG.md"
+                ],
+                "message": "🔖 chore(release): v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
             }
-        ]
+        ],
+        "@semantic-release/github"
     ]
 }

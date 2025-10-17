@@ -76,7 +76,7 @@
                     "README.md",
                     "CHANGELOG.md"
                 ],
-                "message": "🔖 release: v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+                "message": "🔖 chore(release): v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
             }
         ]
     ]
