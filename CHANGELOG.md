@@ -1,3 +1,22 @@
+## [1.10.0](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.9.1...v1.10.0) (2025-10-17)
+
+### ✨ Features
+
+* **docs:** :art: feat333 ([2623607](https://github.com/EmirioBomb/GearPress-Beta/commit/2623607c480a10d0292d38c584930dd880d07217))
+
+### 🐛 Bug Fixes
+
+* **git:** :art: git fix ([58191df](https://github.com/EmirioBomb/GearPress-Beta/commit/58191dfb55c2aa4874647db23070729e07545945))
+
+### 📝 Documentation
+
+* **docs:** :art: new scope ([6c940db](https://github.com/EmirioBomb/GearPress-Beta/commit/6c940dbe178bb5bae3a33442f4e3073734c9442e))
+* **README:** :art: docs readme ([742a17e](https://github.com/EmirioBomb/GearPress-Beta/commit/742a17e0bcdb2cfb76559c557eccee42087f3259))
+
+### 🛠️ CI/CD
+
+* **git:** :zap: ci logs ([e5644b7](https://github.com/EmirioBomb/GearPress-Beta/commit/e5644b75933b6e63777d804523c1495714d4716b))
+
 ## [1.9.1](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.9.0...v1.9.1) (2025-10-16)
 
 ### Documents
