@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.10.0...v1.10.1) (2025-10-17)
+
+### 📝 Documentation
+
+* **docs:** :zap: new docs patch ([9d19045](https://github.com/EmirioBomb/GearPress-Beta/commit/9d19045c4265a4e9d2b0c132add60903327af94e))
+* **git:** :zap: udpate releaserc ([2c66767](https://github.com/EmirioBomb/GearPress-Beta/commit/2c66767cd8be0fa910c3c4ef46aca527c7da5bbc))
+
 ## [1.10.0](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.9.1...v1.10.0) (2025-10-17)
 
 ### ✨ Features
