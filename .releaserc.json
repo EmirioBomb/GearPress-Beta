@@ -8,9 +8,10 @@
                 "releaseRules": [
                     {
                         "type": "docs",
+                        "scope": "README",
                         "release": "patch"
                     },
-                    {
+                    {   
                         "type": "ci",
                         "release": "minor"
                     },
