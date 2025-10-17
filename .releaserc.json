@@ -1,5 +1,8 @@
 {
-    "branch": "main",
+    "branches": [
+        "main"
+    ],
+    "tagFormat": "v${version}",
     "plugins": [
         [
             "@semantic-release/commit-analyzer",
@@ -7,21 +10,37 @@
                 "preset": "conventionalcommits",
                 "releaseRules": [
                     {
-                        "type": "docs",
-                        "scope": "README",
-                        "release": "patch"
-                    },
-                    {   
-                        "type": "ci",
+                        "type": "feat",
                         "release": "minor"
                     },
                     {
-                        "type": "style",
+                        "type": "fix",
                         "release": "patch"
                     },
                     {
-                        "type": "Revert",
+                        "type": "perf",
                         "release": "patch"
+                    },
+                    {
+                        "type": "docs",
+                        "scope": "docs",
+                        "release": "patch"
+                    },
+                    {
+                        "type": "chore",
+                        "release": false
+                    },
+                    {
+                        "type": "refactor",
+                        "release": false
+                    },
+                    {
+                        "type": "ci",
+                        "release": false
+                    },
+                    {
+                        "type": "test",
+                        "release": false
                     }
                 ]
             }
@@ -34,59 +53,58 @@
                     "types": [
                         {
                             "type": "feat",
-                            "section": "Features"
+                            "section": "✨ Features"
                         },
                         {
                             "type": "fix",
-                            "section": "Bug11 Fixes"
-                        },
-                        {
-                            "type": "chore",
-                            "hidden": true
-                        },
-                        {
-                            "type": "docs",
-                            "section": "Documents",
-                            "hidden": false
-                        },
-                        {
-                            "type": "style",
-                            "hidden": true
-                        },
-                        {
-                            "type": "refactor",
-                            "hidden": true
+                            "section": "🐛 Bug Fixes"
                         },
                         {
                             "type": "perf",
-                            "hidden": true
+                            "section": "🚀 Performance Improvements",
+                            "hidden": false
+                        },
+                        {
+                            "type": "docs",
+                            "section": "📝 Documentation",
+                            "hidden": false
+                        },
+                        {
+                            "type": "chore",
+                            "section": "🔧 Chores",
+                            "hidden": false
+                        },
+                        {
+                            "type": "refactor",
+                            "section": "♻️ Code Refactoring",
+                            "hidden": false
                         },
                         {
                             "type": "test",
-                            "hidden": true
+                            "section": "✅ Tests",
+                            "hidden": false
+                        },
+                        {
+                            "type": "ci",
+                            "section": "🛠️ CI/CD",
+                            "hidden": false
                         }
                     ]
                 }
             }
         ],
-        "@semantic-release/changelog",
+        [
+            "@semantic-release/changelog",
+            {
+                "changelogFile": "CHANGELOG.md"
+            }
+        ],
         [
             "@semantic-release/exec",
-            
             {
                 "prepareCmd": "sed -i 's/v[0-9]*\\.[0-9]*\\.[0-9]*/v${nextRelease.version}/g' README.md"
             }
         ],
-        [
-            "@semantic-release/git",
-            {
-                "assets": [
-                    "package.json",
-                    "README.md",
-                    "CHANGELOG.md"
-                ],
-                "message": "🔖 release: v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-            }
-        ]
+        "@semantic-release/git"
     ]
 }
