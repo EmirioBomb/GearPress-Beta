@@ -1,3 +1,9 @@
+## [1.10.3](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.10.2...v1.10.3) (2025-10-17)
+
+### 🐛 Bug Fixes
+
+* **docs:** :art: brea ([576e5c8](https://github.com/EmirioBomb/GearPress-Beta/commit/576e5c8ef60c8ecb2b1292253a9353961a1ba38d))
+
 ## [1.10.2](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.10.1...v1.10.2) (2025-10-17)
 
 ### 🐛 Bug Fixes
