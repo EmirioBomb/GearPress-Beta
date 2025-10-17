@@ -4,7 +4,7 @@
   </p>
 
   <p align="center">
-    <a><img src="https://img.shields.io/badge/fssc--press-v1.10.1-blue?style=flat-square"></a>&nbsp;
+    <a><img src="https://img.shields.io/badge/fssc--press-v1.10.2-blue?style=flat-square"></a>&nbsp;
     <a><img src="https://img.shields.io/badge/Author-Wang_jinlong-blue?style=flat-square" alt="Wang jinlong"></a>&nbsp;
     <a><img src="https://img.shields.io/badge/Build-2023.11.08-blue?style=flat-square" alt="2023.11.08"></a>&nbsp;
     <a><img src="https://img.shields.io/badge/Licence-MIT-blue?style=flat-square" alt="MIT"></a>
