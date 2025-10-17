@@ -1,7 +1,7 @@
 {
   "name": "beta",
   "type": "module",
-  "version": "1.8.4",
+  "version": "1.10.1",
   "description": "",
   "packageManager": "pnpm@8.10.0",
   "author": "EmirioBomb <wjhlfamily@gmail.com>",
