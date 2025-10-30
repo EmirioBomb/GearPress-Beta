@@ -8,6 +8,12 @@ import { defineClientConfig } from 'vuepress/client'
 
 // import './theme/styles/custom.css'
 
+
+import './theme/styles/rainbow.css'
+import './theme/styles/vars.css'
+import './theme/styles/overrides.css'
+
+
 export default defineClientConfig({
   enhance({ app }) {
     // built-in components
@@ -18,5 +24,6 @@ export default defineClientConfig({
 
     // your custom components
     // app.component('CustomComponent', CustomComponent)
+    document.documentElement.classList.add('rainbow')
   },
 })
