@@ -1,3 +1,9 @@
+## [1.10.6](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.10.5...v1.10.6) (2025-10-30)
+
+### 🐛 Bug Fixes
+
+* **git:** :art: rainbow ([b5ca578](https://github.com/EmirioBomb/GearPress-Beta/commit/b5ca578ea4cb0f607f6bccc4c22ee60cbf7ddd4b))
+
 ## [1.10.5](https://github.com/EmirioBomb/GearPress-Beta/compare/v1.10.4...v1.10.5) (2025-10-20)
 
 ### 🐛 Bug Fixes
